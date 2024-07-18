@@ -2591,7 +2591,6 @@ Pour connaître les étapes détaillées de clonage d'un PDB, reportez-vous à l
   <block id="6347721d31864738b0e7a03f5553e69b" category="section-title">Configuration requise pour l'hôte AIX</block>
   <block id="fed30036a3caffc826b4e66f434f67ea" category="paragraph">Vous devez vous assurer que l'hôte répond aux exigences requises avant d'installer le module de plug-ins SnapCenter pour AIX.</block>
   <block id="cddfaa01c32e2362546c78364751248b" category="admonition">Le plug-in SnapCenter pour UNIX qui fait partie du package de plug-ins SnapCenter pour AIX ne prend pas en charge les groupes de volumes simultanés.</block>
-  <block id="895327977020e495debf0b375c7541d8" category="paragraph">AIX 6.1 ou version ultérieure</block>
   <block id="974c2262615af73433567515efbb80e9" category="paragraph">4 GO</block>
   <block id="5dcb853141d33f26c1df2f75da07200a" category="list-text">Java 1.8.x (64 bits) IBM Java</block>
   <block id="3fe85b9e16f08cb63e5aaa5c215097d7" category="list-text">Java 11 (64 bits) IBM Java</block>
@@ -8305,4 +8304,5 @@ Pour plus d'informations sur l'utilisation de SMBR, reportez-vous à<block ref="
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="ad569cc1cca820033bb20ffe1d5bc4a5" category="paragraph">AIX 7.1 ou version ultérieure</block>
 </blocks>
