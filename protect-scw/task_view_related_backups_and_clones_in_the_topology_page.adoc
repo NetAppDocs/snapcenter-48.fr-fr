@@ -67,7 +67,7 @@ Si vous utilisez des plug-ins personnalisés SnapCenter, vous ne pouvez pas reno
 ** Si vous utilisez le module SnapCenter Plug-ins Package pour Linux et que vous avez catalogué la sauvegarde à l'aide d'Oracle Recovery Manager (RMAN), vous ne pouvez pas renommer ces sauvegardes cataloguées.
 
 
-. Pour supprimer un clone, sélectionnez-le dans le tableau, puis cliquez sur image:../media/delete_icon.gif[""] pour supprimer le clone.
+. Si vous souhaitez supprimer un clone, sélectionnez-le dans le tableau et cliquez sur image:../media/delete_icon.gif["icône supprimer"] pour le supprimer.
 
 
 *Exemple de sauvegarde et de clones sur le stockage primaire*

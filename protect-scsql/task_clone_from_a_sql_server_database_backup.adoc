@@ -57,7 +57,7 @@ NOTE: Le clonage d'une sauvegarde d'instance n'est pas pris en charge.
 
 . Sélectionnez la base de données ou le groupe de ressources.
 . Dans la page gérer les copies, sélectionnez la sauvegarde depuis le système de stockage primaire ou secondaire (en miroir ou en stockage).
-. Sélectionnez la sauvegarde, puis cliquez sur *image:../media/clone_icon.gif[""]*.
+. Sélectionnez la sauvegarde, puis cliquez sur * *image:../media/clone_icon.gif["icône cloner"].
 . Dans la page Cloner les options, effectuez les opérations suivantes :
 +
 |===

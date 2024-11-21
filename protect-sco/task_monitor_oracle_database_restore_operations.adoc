@@ -24,7 +24,7 @@ Les icônes suivantes apparaissent sur la page travaux et indiquent l'état de l
 * image:../media/failed_icon.gif["Icône échec"] Échec
 * image:../media/warning_icon.gif["Terminé avec l'icône d'avertissement"] Terminé avec des avertissements ou impossible de démarrer en raison d'avertissements
 * image:../media/verification_job_in_queue.gif["La tâche de vérification est mise en file d'attente"] En file d'attente
-* image:../media/cancel_icon.gif[""] Annulée
+* image:../media/cancel_icon.gif["icône annuler"] Annulée
 
 
 *Étapes*
@@ -33,7 +33,7 @@ Les icônes suivantes apparaissent sur la page travaux et indiquent l'état de l
 . Dans la page moniteur, cliquez sur *travaux*.
 . Dans la page travaux, effectuez les opérations suivantes :
 +
-.. Cliquez sur image:../media/filter_icon.gif[""] pour filtrer la liste afin que seules les opérations de restauration soient répertoriées.
+.. Cliquez sur image:../media/filter_icon.gif["icône de filtre"] pour filtrer la liste afin que seules les opérations de restauration soient répertoriées.
 .. Spécifiez les dates de début et de fin.
 .. Dans la liste déroulante *Type*, sélectionnez *Restaurer*.
 .. Dans la liste déroulante *Status*, sélectionnez l'état de restauration.

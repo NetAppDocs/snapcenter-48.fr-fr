@@ -1,5 +1,5 @@
 ---
-permalink: protect-sco/task_create_resource_groups_and_attach_policies_for_oracle_databases.html 
+permalink: protect-sco/task_create_resource_groups_and_attaching_policies_for_oracle_databases.html 
 sidebar: sidebar 
 keywords: run as 
 summary: Un groupe de ressources est un conteneur dans lequel vous ajoutez des ressources que vous souhaitez sauvegarder et protéger. Un groupe de ressources vous permet de sauvegarder simultanément toutes les données associées à une application donnée. 
@@ -20,7 +20,7 @@ Associez une ou plusieurs règles au groupe de ressources pour définir le type 
 
 L'image suivante illustre la relation entre les ressources, les groupes de ressources et les politiques des bases de données :
 
-image::../media/sco_resourcegroup_policy.gif[stratégie de groupe de ressources sco]
+image::../media/sco_resourcegroup_policy.gif[stratégie de groupe de ressources]
 
 .Étapes
 . Dans le volet de navigation de gauche, sélectionnez *Ressources*, puis le plug-in approprié dans la liste.
