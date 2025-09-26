@@ -3658,7 +3658,6 @@ La valeur par défaut est 100</block>
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">Vous devez disposer d'un utilisateur avec des autorisations sysadmin sur le serveur SQL.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">Le plug-in SnapCenter pour Microsoft SQL Server utilise l'infrastructure VDI Microsoft, qui requiert l'accès sysadmin.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Article 2926557 du support Microsoft : les opérations de sauvegarde et de restauration VDI SQL Server nécessitent des privilèges sysadmin</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="6f4630c11483dcb4143ae30dadd50487" category="list-text">Lors de l'installation d'un plug-in sur un hôte Windows, si vous spécifiez un identifiant qui n'est pas intégré ou si l'utilisateur appartient à un utilisateur de groupe de travail local, vous devez désactiver l'UAC sur l'hôte.</block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">Si SnapManager pour Microsoft SQL Server est installé, vous devez avoir arrêté ou désactivé le service et les programmes.</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">Si vous envisagez d'importer des tâches de sauvegarde ou de clonage dans SnapCenter, ne désinstallez pas SnapManager pour Microsoft SQL Server.</block>
@@ -5220,8 +5219,6 @@ Une erreur interne générale s'est produite sur le serveur.</block>
   <block id="e729f7885b63addbf250ef2f33329efb" category="paragraph">Si le plug-in ne parvient pas à résoudre le nom d'hôte du serveur, connectez-vous à chacun des hôtes du plug-in et ajoutez l'entrée etc/host pour la nouvelle adresse IP au format &lt;New IP&gt; SC_Server_Name.
 Par exemple :<block ref="787ca03a3d14e5cce46cedf0bba7ac2b" prefix=" " category="inline-code"></block></block>
   <block id="421f836e09d607d08dad463276b0c52e" category="paragraph">Les entrées serveur etc/hôte ne seront pas restaurées. Vous pouvez le restaurer manuellement à partir du dossier de sauvegarde DR.</block>
-  <block id="cf6d86307a7decebf79e2175ef2bc96f" category="inline-link">Comment migrer SnapCenter vers un autre serveur</block>
-  <block id="40b06602d6310e9f595ec07f57b84775" category="admonition">Pour une configuration F5, l'opération de restauration est effectuée en mode autonome. Vous devez exécuter un ensemble de commandes pour créer à nouveau F5. Voir, lien :<block ref="fb5c34144d693d79610d99e63e5e4e12" category="inline-link-rx"></block></block>
   <block id="d51a9a84121a4ca319f6f0b5d481f073" category="admonition">Après la restauration de reprise sur incident, l'hôte sera ajouté, mais vous devez installer le plug-in manuellement.</block>
   <block id="2dce035ff36be1c01663c842167acf77" category="admonition">La planification des sauvegardes du référentiel sera restaurée uniquement si vous installez le plug-in SnapCenter pour Windows et que vous associez un LUN NetApp à la machine serveur.</block>
   <block id="90969e9b7bcd66fedcf0339db7d5e13e" category="admonition">Si les DLL sont corrompues, vous pouvez essayer de réparer le serveur SnapCenter ou de corriger l'installation défectueuse.</block>
@@ -8304,4 +8301,6 @@ Pour plus d'informations sur l'utilisation de SMBR, reportez-vous à<block ref="
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">Voir la <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block> vidéo.</block>
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Pour plus d'informations, reportez-vous à la<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vidéo.</block>
+  <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
+  <block id="743e97989091f05772e454accc001020" category="list-text">Si la machine virtuelle est corrompue, ouvrez une autre machine virtuelle ou une machine portant le même nom et installez SnapCenter Server avec la même version.</block>
 </blocks>

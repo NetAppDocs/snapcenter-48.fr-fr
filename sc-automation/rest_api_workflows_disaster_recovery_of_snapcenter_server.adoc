@@ -47,27 +47,17 @@ Par exemple : `10.225.81.35 SCServer1`
 +
 Les entrées serveur etc/hôte ne seront pas restaurées. Vous pouvez le restaurer manuellement à partir du dossier de sauvegarde DR.
 
++
+*** Après la restauration de reprise sur incident, l'hôte sera ajouté, mais vous devez installer le plug-in manuellement.
+*** La planification des sauvegardes du référentiel sera restaurée uniquement si vous installez le plug-in SnapCenter pour Windows et que vous associez un LUN NetApp à la machine serveur.
+*** Si les DLL sont corrompues, vous pouvez essayer de réparer le serveur SnapCenter ou de corriger l'installation défectueuse.
+*** Si les fichiers NSM ou config sont corrompus, vous pouvez désinstaller et réinstaller le serveur SnapCenter avec la même version.
+*** Si la machine virtuelle est corrompue, ouvrez une autre machine virtuelle ou une machine portant le même nom et installez SnapCenter Server avec la même version.
 
 
 
 
 
-NOTE: Pour une configuration F5, l'opération de restauration est effectuée en mode autonome. Vous devez exécuter un ensemble de commandes pour créer à nouveau F5. Voir, lien : https://kb.netapp.com/Advice_and_Troubleshooting/Data_Protection_and_Security/SnapCenter/How_to_Migrate_SnapCenter_migrate_to_another_Server["Comment migrer SnapCenter vers un autre serveur"^]
-
-
-NOTE: Après la restauration de reprise sur incident, l'hôte sera ajouté, mais vous devez installer le plug-in manuellement.
-
-
-NOTE: La planification des sauvegardes du référentiel sera restaurée uniquement si vous installez le plug-in SnapCenter pour Windows et que vous associez un LUN NetApp à la machine serveur.
-
-
-NOTE: Si les DLL sont corrompues, vous pouvez essayer de réparer le serveur SnapCenter ou de corriger l'installation défectueuse.
-
-
-NOTE: Si les fichiers NSM ou config sont corrompus, vous pouvez désinstaller et réinstaller le serveur SnapCenter avec la même version.
-
-
-NOTE: La planification des sauvegardes du référentiel sera restaurée uniquement si vous installez le plug-in SnapCenter pour Windows et que vous associez un LUN NetApp à la machine serveur.
 
 
 
