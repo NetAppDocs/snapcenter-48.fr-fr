@@ -4627,10 +4627,8 @@ Pour plus d'informations, voir <block ref="e785a19e47d7a7e00436d504e46ce80e" cat
   <block id="ad5726653853fba2b5d98515c638da77" category="list-text">Sur site, pour protéger ce qui suit :</block>
   <block id="3b5d218d734c41cfe8d9efd5e6fc8373" category="list-text">Les données qui résident dans les systèmes primaires ONTAP FAS ou AFF et qui sont répliquées vers les systèmes secondaires ONTAP FAS ou AFF</block>
   <block id="7deab53ede49d0d1a58c65f2e25ff259" category="list-text">Les données qui résident dans les systèmes primaires ONTAP Select</block>
-  <block id="6c27677d6e913bc79948a8f54acbd25c" category="list-text">Les données qui résident dans des systèmes primaires et secondaires ONTAP FAS ou AFF, et qui sont protégées vers le stockage objet StorageGRID local (avec intégration de la sauvegarde dans le cloud NetApp BlueXP)</block>
   <block id="bc549d53e5e7a7aeb8a41511751a99f2" category="list-text">Sur site, dans un cloud hybride, pour protéger ce qui suit :</block>
   <block id="88ff864aa61d80e2b8a79a0f91b36f3b" category="list-text">Les données qui résident dans les systèmes primaires ONTAP FAS ou AFF et qui sont répliquées vers Cloud Volumes ONTAP</block>
-  <block id="4715420841b96150a5fff8e31c55eeb2" category="list-text">Les données qui résident dans des systèmes primaires et secondaires ONTAP FAS ou AFF, et qui sont protégées vers le stockage objet et d'archivage dans le cloud (avec l'intégration de NetApp BlueXP Cloud Backup)</block>
   <block id="ca5570a253e3c0a27562c65c06bb6125" category="list-text">Dans un cloud public, pour protéger :</block>
   <block id="b340c2b4a7a978a510c8ebb351622143" category="list-text">Les données qui résident dans les systèmes primaires Cloud Volumes ONTAP (anciennement ONTAP Cloud)</block>
   <block id="b380e442ff5c6e48e283af8b6f99806f" category="list-text">Données qui se trouvent sur Amazon FSX pour ONTAP</block>
@@ -8303,4 +8301,6 @@ Pour plus d'informations sur l'utilisation de SMBR, reportez-vous à<block ref="
   <block id="86ea794e2d7fcff39be7476200e06b51" category="paragraph">Pour plus d'informations, reportez-vous à la<block ref="a62945bfb4dadbe324d9f8ad560f4a1c" category="inline-link-rx"></block> vidéo.</block>
   <block id="2af0fc8c21c11cf5ed04e0063f53931e" category="paragraph"><block ref="2af0fc8c21c11cf5ed04e0063f53931e" category="inline-link-rx"></block></block>
   <block id="743e97989091f05772e454accc001020" category="list-text">Si la machine virtuelle est corrompue, ouvrez une autre machine virtuelle ou une machine portant le même nom et installez SnapCenter Server avec la même version.</block>
+  <block id="f9273a868771a3333fc3bdb0685a4953" category="list-text">Données qui se trouvent sur les systèmes primaires et secondaires ONTAP FAS ou AFF et protégées sur le stockage d'objets StorageGRID local à l'aide de l'intégration de sauvegarde et de récupération NetApp</block>
+  <block id="a06b252ea7fd1b7f59b0d865f1b52021" category="list-text">Données qui se trouvent sur les systèmes primaires et secondaires ONTAP FAS ou AFF et protégées dans le stockage d'objets et d'archives dans le cloud à l'aide de l'intégration de sauvegarde et de récupération NetApp</block>
 </blocks>
