@@ -339,7 +339,6 @@
   <block id="6d2bf94f38d1fdf840fe9b231866899c" category="inline-link">Présentation du déploiement</block>
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">Pour plus d'informations sur le déploiement, reportez-vous à la section<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block>.</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">Créez ou importez un certificat SSL</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">Pour configurer le certificat d'autorité de certification avec le plug-in SnapCenter pour VMware vSphere, reportez-vous à la section<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block>.</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">Configurez le fichier CRL</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">Le plug-in SnapCenter pour VMware vSphere recherche les fichiers CRL dans un répertoire préconfiguré. Le répertoire par défaut des fichiers CRL pour le plug-in SnapCenter pour VMware vSphere est _/opt/netapp/config/crl_.</block>
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">Vous pouvez placer plusieurs fichiers CRL dans ce répertoire. Les certificats entrants seront vérifiés pour chaque CRL.</block>
@@ -3649,10 +3648,7 @@ La valeur par défaut est 100</block>
   <block id="9b51fddaf011faab92bf06f41ccf6d11" category="inline-link-macro">Créez des groupes de ressources et associez des stratégies pour SQL Server</block>
   <block id="35002a531b4134648eef7b46ee445a29" category="paragraph"><block ref="35002a531b4134648eef7b46ee445a29" category="inline-link-macro-rx"></block></block>
   <block id="51fb25555c87830dd2151ad5f3b7a845" category="paragraph"><block ref="51fb25555c87830dd2151ad5f3b7a845" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">Les opérations de sauvegarde échouent avec l'erreur de connexion MySQL en raison du délai dans TCP_TIMEOUT</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">La sauvegarde échoue en raison d'une erreur du planificateur Windows</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
   <block id="f9ba38b961aca7823da15b938828b64f" category="doc">Conditions préalables à l'ajout d'hôtes et à l'installation du plug-in SnapCenter pour Microsoft SQL Server</block>
   <block id="061b9167e88f686d39fa02000809052c" category="list-text">Vous devez disposer d'un utilisateur disposant de privilèges d'administrateur local avec des autorisations de connexion locales sur l'hôte distant.</block>
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">Vous devez disposer d'un utilisateur avec des autorisations sysadmin sur le serveur SQL.</block>
@@ -3741,7 +3737,6 @@ La valeur par défaut est 100</block>
   <block id="5891deda92209d1d45144775b7d5c20d" category="admonition">Vous ne devez pas renommer la tâche de sauvegarde créée dans le planificateur Windows ou l'agent SQL Server.</block>
   <block id="1ca9ef3a64115b9b5155a63404740914" category="paragraph">Un groupe de ressources implicite est créé. Vous pouvez afficher ces informations en sélectionnant l'utilisateur ou le groupe concerné dans la page accès utilisateur. Le type de groupe de ressources implicite est « ressource ».</block>
   <block id="f1b0e4721c4648a3a0d9747b1df24457" category="inline-link">Les opérations de mise en attente ou de regroupement des ressources échouent</block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="d050ee33bc723342413319851e1c3dd2" category="summary">Lorsque vous installez le plug-in SnapCenter pour Microsoft SQL Server dans votre environnement, vous pouvez utiliser SnapCenter pour sauvegarder les ressources SQL Server.</block>
   <block id="a2bc7758f1d4b865eb9ffb18573c3d1d" category="paragraph">Vous pouvez planifier plusieurs sauvegardes pour les exécuter simultanément sur plusieurs serveurs.</block>
   <block id="2e4ff567e848a0262685f994307e15fe" category="paragraph">Les opérations de sauvegarde et de restauration ne peuvent pas être effectuées simultanément sur la même ressource.</block>
@@ -4055,10 +4050,7 @@ Vous pouvez éventuellement personnaliser le chemin.</block>
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">Sauvegardez la base de données SQL Server, l'instance ou le groupe de disponibilité</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link">Le clonage peut échouer ou prendre plus de temps avec la valeur TCP_TIMEOUT par défaut</block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">Le clone de base de données de l'instance de cluster de basculement échoue</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="230797cd257f4279279a678587ed7d3e" category="summary">Vous devez installer et configurer le plug-in SnapCenter pour Microsoft SQL Server si vous souhaitez protéger les bases de données SQL Server.</block>
   <block id="f03c757efff1b7a92c7b30cbc8c7c0b8" category="doc">Workflow d'installation pour le plug-in SnapCenter pour Microsoft SQL Server</block>
   <block id="81a77062a70718e0452154930df7ac35" category="doc">Annuler les opérations de clonage de ressources SQL</block>
@@ -4330,7 +4322,6 @@ Vous pouvez également choisir l'authentification Windows si l'utilisateur Windo
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="024d2125c4de994f5780d700157a8f8a" category="inline-link-macro">Réaliser le cycle de vie des clones</block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="a61442d4f2c413e3792d7594050ba2cc" category="summary">Vous pouvez utiliser l'applet de commande Remove-SmBackup pour nettoyer le nombre de sauvegardes pour les sauvegardes secondaires qui ne possèdent pas de copie Snapshot. Vous pouvez utiliser cette applet de commande lorsque le paramètre de conservation des copies Snapshot totales affiché dans la topologie gérer les copies ne correspond pas au paramètre de conservation des copies Snapshot de stockage secondaire.</block>
   <block id="11dc6d5147b38aacb94d18c088856bed" category="doc">Nettoyez le nombre de sauvegardes secondaires à l'aide des applets de commande PowerShell</block>
   <block id="9ca74d34b57102a33530d9899af7733c" category="summary">La définition d'une stratégie de clonage vous permet de cloner votre base de données avec succès.</block>
@@ -6957,9 +6948,6 @@ Pour plus d'informations, voir<block ref="f89494b555e2d92920e0ac70f10ea089" cate
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">Le plug-in pour Windows ne prend pas en charge MPIO sur des machines virtuelles d'un cluster Microsoft.</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">Créer une LUN FC RDM partagée</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">Avant de pouvoir utiliser des LUN RDM FC pour partager le stockage entre les nœuds d'un cluster Microsoft, vous devez d'abord créer le disque quorum partagé et le disque de stockage partagé, puis les ajouter aux deux machines virtuelles du cluster.</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">Machines virtuelles de clusters sur des hôtes physiques</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">Le disque partagé n'est pas créé à l'aide du plug-in pour Windows. Vous devez créer, puis ajouter le LUN partagé à chaque machine virtuelle du cluster.
-Pour plus d'informations, reportez-vous à la section<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>.</block>
   <block id="3eae407dfe0e4c7f1efa654af1ad8d78" category="summary">Si vous ne souhaitez pas utiliser l'interface graphique de SnapCenter pour effectuer des tâches de provisionnement d'hôtes et de récupération d'espace, vous pouvez utiliser les applets de commande PowerShell fournies par le plug-in SnapCenter pour Microsoft Windows. Vous pouvez utiliser les applets de commande directement ou les ajouter aux scripts.</block>
   <block id="7237d45fe61f4bbc73cd8a2c246ec386" category="doc">Provisionnement du stockage avec les applets de commande PowerShell</block>
   <block id="9da496a6d2e4812b4deab34ab555bde8" category="paragraph">Si vous exécutez les applets de commande sur un hôte de plug-in distant, vous devez exécuter l'applet de commande SnapCenter Open-SMConnection pour ouvrir une connexion au serveur SnapCenter.</block>
@@ -8303,4 +8291,12 @@ Pour plus d'informations sur l'utilisation de SMBR, reportez-vous à<block ref="
   <block id="743e97989091f05772e454accc001020" category="list-text">Si la machine virtuelle est corrompue, ouvrez une autre machine virtuelle ou une machine portant le même nom et installez SnapCenter Server avec la même version.</block>
   <block id="f9273a868771a3333fc3bdb0685a4953" category="list-text">Données qui se trouvent sur les systèmes primaires et secondaires ONTAP FAS ou AFF et protégées sur le stockage d'objets StorageGRID local à l'aide de l'intégration de sauvegarde et de récupération NetApp</block>
   <block id="a06b252ea7fd1b7f59b0d865f1b52021" category="list-text">Données qui se trouvent sur les systèmes primaires et secondaires ONTAP FAS ou AFF et protégées dans le stockage d'objets et d'archives dans le cloud à l'aide de l'intégration de sauvegarde et de récupération NetApp</block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">Pour configurer le certificat CA avec SnapCenter Plug-in for VMware vSphere, voir<block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>.</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">Le disque partagé n'est pas créé à l'aide du Plug-in for Windows. Vous devez créer le LUN partagé, puis l'ajouter à chaque machine virtuelle du cluster.</block>
+  <block id="30f60d67f457bb040dffde52197a54da" category="section-title">Informations connexes</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Broadcom Documentation technique</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph">Consultez <block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block> et recherchez la documentation sur le clustering de machines virtuelles sur des hôtes physiques et la création de LUN FC RDM partagés pour les clusters Microsoft.</block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
 </blocks>
